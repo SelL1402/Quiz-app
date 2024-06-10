@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.app {
+    max-width: 1680px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+
+.main {
+    padding: 10px 20px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+     font-size: 20px;
+}
+
+.pulse {
+    animation: pulse 1.5s ease-in-out .5s infinite
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: .4
+    }
+    100% {
+        opacity: 1
+    }
+}

@@ -1,0 +1,29 @@
+.quizItem-content{
+    width: 450px;
+    height: 200px;
+    background-color: #00AB78;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-text-title{
+        font-size: 38px;
+    }
+    &-text-theme{
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 8px;
+    }
+    &-info{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-amount, &-time{
+            font-size: 24px;
+        }
+    }
+}

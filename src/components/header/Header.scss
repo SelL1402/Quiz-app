@@ -1,0 +1,22 @@
+.header{
+    background-color: #00AB78;
+    padding: 10px 15px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-text{
+        color: #fff;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    &-link{
+        color: #fff;
+        font-size: 42px;
+        transition: .4s;
+        &:hover{
+            text-decoration: underline;
+            color:#fff;
+        }
+    }
+}

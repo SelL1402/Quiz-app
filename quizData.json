@@ -1,0 +1,70 @@
+{
+  "quiz": [
+    {
+      "id": "1",
+      "title": "Title",
+      "theme": "math",
+      "time": 1,
+      "amount": 25,
+      "questions": [
+        {
+          "question": "2+1=",
+          "variants": [
+            "3",
+            "2",
+            "0",
+            "1"
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "question": "3+1=",
+          "variants": [
+            "3",
+            "2",
+            "0",
+            "4"
+          ],
+          "correctAnswer": "4"
+        },
+        {
+          "question": "4+1=",
+          "variants": [
+            "3",
+            "2",
+            "0",
+            "5"
+          ],
+          "correctAnswer": "5"
+        }
+      ]
+    },
+    {
+      "id": "def0",
+      "title": "Math(9class)",
+      "time": 5,
+      "questions": [
+        {
+          "question": "2+3=",
+          "correctAnswer": "5",
+          "variants": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ]
+        },
+        {
+          "question": "2+1=",
+          "correctAnswer": "3",
+          "variants": [
+            "2",
+            "1",
+            "3",
+            "5"
+          ]
+        }
+      ]
+    }
+  ]
+}
